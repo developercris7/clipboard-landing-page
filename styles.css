@@ -18,7 +18,7 @@ body {
 
 p {
   padding: 0;
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   color: var(--grayishblue);
   font-size: 18px;
@@ -41,7 +41,7 @@ button {
 
 header {
   width: 100vw;
-  height: 600px;
+  height: 650px;
   font-family: "Bai Jamjuree", sans-serif;
   background-image: url("./Assets/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -107,6 +107,7 @@ footer p {
     background-image: url("./Assets/bg-header-mobile.png");
   }
   p {
+    max-width: 500px;
     padding: 0px 5px;
     text-align: center;
   }
